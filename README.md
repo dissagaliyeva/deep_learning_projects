@@ -150,7 +150,7 @@ I was manually transferring the images to satisfy DataLoader's and ImageFolder's
 The main feature to remember: **DataLoader treats names as strings, even if the names are numeric**. PyCharm uses automatic folder sorting, so there might be
 mismatch between PyCharm's and DataLoader's way of structuring things.   
 * Discriminative Learning Rates  <br>
-<img src="readme_images/differential.png" width="400px" align="right"/> <br><br>
+<img src="readme_images/differential.png" width="300px" align="right"/>
 To better understand how Discriminative Learning Rates work, the following image might help (right). 
 To implement this technique, we need to use smaller learning rates at convolutional layers and bigger ones in the fully-connected ones. Doing so boosted the performance. 
 I specifically want to focus on the case of Adagrad. At the beginning, I've trained it using 
