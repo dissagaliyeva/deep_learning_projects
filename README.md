@@ -72,7 +72,6 @@ If no location metadata for an image is available, one way to infer the location
 
 ### Results
 
-[comment]: <> (![Landmark Classifier]&#40;readme_images/landmark.png&#41; <br>)
 <img src="readme_images/landmark.png" align="left"/>
 After going through dozens of research papers on Convolutional Neural Networks, I found the optimal architecture that managed to 
 score 41% instead of the passing score of 20%. After reading <a href="https://arxiv.org/abs/1409.4842">Going Deeper with Convolutions</a>, I've decided to
@@ -150,9 +149,8 @@ confidence on classifying the never-seen-before image of a sunflower.
 * os package <br>
 I was manually transferring the images to satisfy DataLoader's and ImageFolder's requirements. Therefore, there was an extensive usage of such package. 
 The main feature to remember: **DataLoader treats names as strings, even if the names are numeric**. PyCharm uses automatic folder sorting, so there might be
-mismatch between PyCharm's and DataLoader's way of structuring things.   
+mismatch between PyCharm's and DataLoader's way of structuring things.   <img src="readme_images/differential.png" width="300px" align="right"/>
 * Discriminative Learning Rates  <br>
-<img src="readme_images/differential.png" width="300px" align="right"/>
 To better understand how Discriminative Learning Rates work, the following image might help (right). 
 To implement this technique, we need to use smaller learning rates at convolutional layers and bigger ones in the fully-connected ones. Doing so boosted the performance. 
 I specifically want to focus on the case of Adagrad. At the beginning, I've trained it using 
