@@ -3,17 +3,17 @@ This folder contains all the projects from Udacity's Nanodegree Program along wi
 stored in the 'project-XXX' format or below:
 
 **Udacity**
-*[*] Bike-Sharing (pure numpy)
-*[*] Landmark Classification (CNN, Transfer Learning, VGG16)
-*[] TV Script Generator (RNN, LSTM)
-*[] Face Generator (GAN, CycleGAN)
-*[] Deploying a Sentiment Analysis Model (AWS SageMaker)
+[*] Bike-Sharing (pure numpy) <br>
+[*] Landmark Classification (CNN, Transfer Learning, VGG16) <br>
+[] TV Script Generator (RNN, LSTM) <br>
+[] Face Generator (GAN, CycleGAN) <br>
+[] Deploying Sentiment Analysis Model (AWS SageMaker) <br>
 
 **Own**
-*[*] 102 Flowers (CNN, Transfer Learning, ResNet34, Discriminative Learning Rates)
-*[] Bike-Sharing (CNN, Regression)
-*[] Dog Classification (CNN, Transfer Learning)
-*[] Cancer Detection (CNN, Transfer Learning)
+[*] 102 Flowers (CNN, Transfer Learning, ResNet34, Discriminative Learning Rates) <br>
+[] Bike-Sharing (CNN, Regression) <br>
+[] Dog Classification (CNN, Transfer Learning) <br>
+[] Cancer Detection (CNN, Transfer Learning) <br>
 
 
 ## Bike-Sharing Rentals<br>
