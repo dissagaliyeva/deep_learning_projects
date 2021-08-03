@@ -1,7 +1,22 @@
-# Udacity Deep Learning Nanodegree Program
-This folder contains all the solutions to the Nanodegree Program. The major projects are contained in the 'project-XXX' format or below:
+# Udacity Deep Learning Nanodegree Program + Own Projects
+This folder contains all the projects from Udacity's Nanodegree Program along with own projects. The major projects are stored in the 'project-XXX' format or below:
 
-## Bike-Sharing Rentals<br>
+The following projects are presented: <br>
+**Udacity**
+* Bike-Sharing (pure numpy, Udacity)
+* Landmark Classification (CNN, Transfer Learning)
+* TV Script Generator (RNN, LSTM)
+* Face Generator (GAN, CycleGAN)
+* Deploying a Sentiment Analysis Model (AWS SageMaker)
+
+**Own**
+* Dog Classification (CNN, Transfer Learning)
+* Cancer Detection (CNN, Transfer Learning)
+* 102 Flowers (CNN, Transfer Learning)
+* Bike-Sharing (CNN)
+
+
+## Bike-Sharing Rentals, Udacity<br>
 * <a href="https://github.com/issagaliyeva/udacity_deep_learning/blob/master/project-bike-sharing/Predicting_bike_sharing_data.ipynb">Numpy Implementation</a>
 * <a href="https://github.com/issagaliyeva/udacity_deep_learning/blob/master/project-bike-sharing/pytorch_implementation.ipynb">Pytorch Implementation</a> [under development]
 
@@ -41,7 +56,7 @@ were created for us, I decided to break down the whole thing to see how everythi
 
 ---
 
-## Landmark Classifier
+## Landmark Classifier, Udacity
 * <a href="https://github.com/issagaliyeva/udacity_deep_learning/tree/master/project-landmark-classifier">VGG16 Model</a>
 * <a>Other Models</a> [under development]
 
@@ -82,14 +97,14 @@ correctness, we need to use torchsummary!
 
 ---
 
-## TV Script Generator 
+## TV Script Generator, Udacity
 
 
 
 ---
-## Face Generator
+## Face Generator, Udacity
 
 
 
 ---
-## Deploying the Model 
+## Deploying the Model, Udacity
