@@ -1,7 +1,7 @@
 # Udacity Deep Learning Nanodegree Program + Own Projects
-This folder contains all the projects from Udacity's Nanodegree Program along with own projects. The major projects are stored in the 'project-XXX' format or below:
+This folder contains all the projects from Udacity's Nanodegree Program along with own projects. The major projects are 
+stored in the 'project-XXX' format or below:
 
-The following projects are presented: <br>
 **Udacity**
 * Bike-Sharing (pure numpy)
 * Landmark Classification (CNN, Transfer Learning, VGG16)
