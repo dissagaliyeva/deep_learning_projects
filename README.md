@@ -71,7 +71,9 @@ Photo sharing and photo storage services like to have location data for each pho
 If no location metadata for an image is available, one way to infer the location is to detect and classify a discernible landmark in the image. Given the large number of landmarks across the world and the immense volume of images that are uploaded to photo sharing services, using human judgement to classify these landmarks would not be feasible.
 
 ### Results
-![Landmark Classifier](readme_images/landmark.png) <br>
+
+[comment]: <> (![Landmark Classifier]&#40;readme_images/landmark.png&#41; <br>)
+<img src="readme_images/landmark.png" align="left"/>
 After going through dozens of research papers on Convolutional Neural Networks, I found the optimal architecture that managed to 
 score 41% instead of the passing score of 20%. After reading <a href="https://arxiv.org/abs/1409.4842">Going Deeper with Convolutions</a>, I've decided to
 go with 5-layer convolutions (each followed by ReLU activation function and max pooling) and 3 fully-connected layers. The interesting
