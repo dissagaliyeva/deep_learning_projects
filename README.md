@@ -82,17 +82,17 @@ However, using VGG-16 for pre-trained model, scored a bit more than 70%. Not onl
 This finding led me to reconsider my choice and find more optimal models. The experimentation will be covered in the next notebook. 
 
 ### What I learnt
-* split-folders package
+* split-folders package <br>
 Until I got introduced to this package, I used the manual shuffling, splitting and indexing to divide the values into three categories:
 training, validation, and testing sets. However, it was a tedious and long process. After my first submission, the reviewer
 suggested looking at this module.
-* Preprocessing pipeline
+* Preprocessing pipeline <br>
 It took me forever to understand the importance of the transformations' sequence: place the ToTensor() before normalization! At the early stages,
 I didn't follow that structure, and, of course, the code wasn't working. Also, it's important to perform the same transformations
 to the validation and test sets. I was sure that we couldn't alter the test set only.
 * Reshaping the values before the first fully-connected layer  
 It's essential to flatten the values before passing them to fully-connected layers! Otherwise, it won't work.
-* torchsummary package
+* torchsummary package<br>
 When building the architecture, we need to make sure that each layer is correctly instantiated. To double-check the 
 correctness, we need to use torchsummary!   
 
