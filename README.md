@@ -57,7 +57,7 @@ were created for us, I decided to break down the whole thing to see how everythi
 ---
 
 ## Landmark Classifier
-* <a href="https://github.com/issagaliyeva/udacity_deep_learning/tree/master/project-landmark-classifier">VGG16 Model</a>
+* <a href="https://github.com/issagaliyeva/deep_learning_projects/blob/master/project-landmark-classifier/landmark.ipynb">VGG16 Model</a>
 * <a>Other Models</a> [under development]
 
 This project is subset of <a href='https://www.kaggle.com/google/google-landmarks-dataset'>Google Landmarks</a> dataset on Kaggle. The objective of this project was to build own and transfer architectures using Convolutional Neural Networks (CNN).
