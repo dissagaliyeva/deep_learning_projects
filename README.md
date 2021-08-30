@@ -17,8 +17,8 @@ stored in the 'project-XXX' format or below:
 
 
 ## Bike-Sharing Rentals<br>
-* <a href="https://github.com/issagaliyeva/udacity_deep_learning/blob/master/project-bike-sharing/Predicting_bike_sharing_data.ipynb">Numpy Implementation</a>
-* <a href="https://github.com/issagaliyeva/udacity_deep_learning/blob/master/project-bike-sharing/pytorch_implementation.ipynb">Pytorch Implementation</a> [under development]
+* <a href="https://github.com/issagaliyeva/deep_learning_projects/blob/master/project-bike-sharing/Predicting_bike_sharing_data.ipynb">Numpy Implementation</a>
+* <a href="https://github.com/issagaliyeva/deep_learning_projects/blob/master/project-bike-sharing/pytorch_implementation.ipynb">Pytorch Implementation</a> [under development]
 
 <b>The first</b> case was implemented using a vanilla approach with pure numpy package. <br>
 <b>The second one</b>, however, is my implementation to see how the results differ using PyTorch.  
