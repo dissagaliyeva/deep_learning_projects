@@ -1,22 +1,23 @@
 # Udacity Deep Learning Nanodegree Program + Own Projects
+<img src="readme_images/cert.jpg"/>
 This folder contains all the projects from Udacity's Nanodegree Program along with own projects. The major projects are 
 stored in the 'project-XXX' format or below:
 
 **Udacity**
-- [x] Bike-Sharing (pure numpy) 
-- [x] Landmark Classification (CNN, Transfer Learning, VGG16) 
-- [x] TV Script Generator (RNN, LSTM) 
-- [x] Face Generator (GAN, CycleGAN) 
-- [x] Deploying Sentiment Analysis Model (AWS SageMaker, REST API, NLP) 
+- [x] [Bike-Sharing (pure numpy)](#bike-sharing)
+- [x] [Landmark Classification (CNN, Transfer Learning, VGG16)](#landmark)
+- [x] [TV Script Generator (RNN, LSTM)](#tv-script-generator) 
+- [x] [Face Generator (GAN, CycleGAN)](#face-generator) 
+- [x] [Deploying Sentiment Analysis Model (AWS SageMaker, REST API, NLP)](#deploying-the-model)
 
 **Own**
-- [x] 102 Flowers (CNN, Transfer Learning, ResNet34, Discriminative Learning Rates)
+- [x] [102 Flowers (CNN, Transfer Learning, ResNet34, Discriminative Learning Rates)](#flower)
 - [] Bike-Sharing (CNN, Regression) 
 - [] Dog Classification (CNN, Transfer Learning) 
 - [] Cancer Detection (CNN, Transfer Learning) 
 
 
-## Bike-Sharing Rentals<br>
+## Bike-Sharing Rentals <a class="anchor" id="bike-sharing"/> <br>
 * <a href="https://github.com/issagaliyeva/deep_learning_projects/blob/master/project-bike-sharing/Predicting_bike_sharing_data.ipynb">Numpy Implementation</a>
 * <a href="https://github.com/issagaliyeva/deep_learning_projects/blob/master/project-bike-sharing/pytorch_implementation.ipynb">Pytorch Implementation</a> [under development]
 
@@ -46,17 +47,9 @@ It managed to achieve 0.062 on training set and 0.133 on test set. However, we c
 The majority of people use bikes for work commutes. As we can see, the data we're testing the results on the last days of December. As we saw above, there is an over-prediction in the last days of December. 
 We see such a phenomenon due to the fact that the Neural Network has seen one-year record (since we're withholding the last year for testing purposes). It could not generalize because of the holiday season. The solution to which would be to include more data on consecutive years.
 
-### What I learnt
-* Output layer doesn't need an activation function. <br>
-It was surprising to learn that I don't need an activation function on the output layer since we were not dealing with classifications. It took me a lot of time 
-to understand why the predictions were not going up and down but flat instead. 
-* Unit test <br>
-Before getting into the predictions themselves, I needed to pass unit tests to see if my architecture was built correctly. Instead of skipping the lines of code that
-were created for us, I decided to break down the whole thing to see how everything works under the hood.   
-
 ---
 
-## Landmark Classifier
+## Landmark Classifier <a class="anchor" id="landmark"/>
 * <a href="https://github.com/issagaliyeva/deep_learning_projects/blob/master/project-landmark-classifier/landmark.ipynb">VGG16 Model</a>
 * <a>Other Models</a> [under development]
 
@@ -64,7 +57,7 @@ This project is subset of <a href='https://www.kaggle.com/google/google-landmark
 
 <b>Project Description</b>
 * 5000 images (50 folders, 100 images in each)
-* Datasets can be found here (BE CAREFUL, IT STARTS DOWNLOAD AUTOMATICALLY): [landmark dataset](https://udacity-dlnfd.s3-us-west-1.amazonaws.com/datasets/landmark_images.zip)
+* Datasets can be found here (BE CAREFUL, automatic download): [landmark dataset](https://udacity-dlnfd.s3-us-west-1.amazonaws.com/datasets/landmark_images.zip)
 
 Photo sharing and photo storage services like to have location data for each photo that is uploaded. With the location data, these services can build advanced features, such as automatic suggestion of relevant tags or automatic photo organization, which help provide a compelling user experience. Although a photo's location can often be obtained by looking at the photo's metadata, many photos uploaded to these services will not have location metadata available. This can happen when, for example, the camera capturing the picture does not have GPS or if a photo's metadata is scrubbed due to privacy concerns.
 
@@ -109,7 +102,9 @@ correctness, we need to use torchsummary!
 
 ---
 ## Deploying the Model
-* <a href=""></a>
+* <a href="https://github.com/issagaliyeva/deep_learning_projects/blob/master/project-aws-deployment/SageMaker%20Project.ipynb">SageMaker + REST API (for app)</a><br>
+This project was an extension of lectures where
+
 
 ---
 
