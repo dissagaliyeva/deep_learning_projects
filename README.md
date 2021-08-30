@@ -5,9 +5,9 @@ stored in the 'project-XXX' format or below:
 **Udacity**
 - [x] Bike-Sharing (pure numpy) 
 - [x] Landmark Classification (CNN, Transfer Learning, VGG16) 
-- [] TV Script Generator (RNN, LSTM) 
-- [] Face Generator (GAN, CycleGAN) 
-- [] Deploying Sentiment Analysis Model (AWS SageMaker) 
+- [x] TV Script Generator (RNN, LSTM) 
+- [x] Face Generator (GAN, CycleGAN) 
+- [x] Deploying Sentiment Analysis Model (AWS SageMaker, REST API, NLP) 
 
 **Own**
 - [x] 102 Flowers (CNN, Transfer Learning, ResNet34, Discriminative Learning Rates)
