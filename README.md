@@ -1,5 +1,5 @@
 # Udacity Deep Learning Nanodegree Program + Own Projects
-<img src="readme_images/cert.jpg" width="500px" height="500px" style="text-align: center"/>
+<img src="readme_images/cert.jpg"/>
 This folder contains all the projects from Udacity's Nanodegree Program along with own projects. The major projects are 
 stored in the 'project-XXX' format or below:
 
@@ -7,7 +7,7 @@ stored in the 'project-XXX' format or below:
 - [x] [Bike-Sharing (pure numpy)](#bike-sharing)
 - [x] [Landmark Classification (CNN, Transfer Learning, VGG16)](#landmark)
 - [x] [TV Script Generator (RNN, LSTM)](#tv-script-generator) 
-- [x] [Face Generator (GAN, CycleGAN)](#face-generator) 
+- [x] [Face Generator (GAN)](#face-generator) 
 - [x] [Deploying Sentiment Analysis Model (AWS SageMaker, REST API, NLP)](#deploying-the-model)
 
 **Own**
@@ -117,7 +117,16 @@ george: i don't want to be here.
 
 ---
 ## Face Generator
-* <a href="">CycleGAN</a>
+* <a href="https://github.com/issagaliyeva/deep_learning_projects/blob/master/project-face-generation/dlnd_face_generation.ipynb">GAN on celebrity images</a>
+
+<b>Project Description</b>
+* <a href="http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html">CelebFaces Attributes Dataset (CelebA)</a>: 200k images, 32x32x3 
+
+In this project, you'll define and train a DCGAN on a dataset of faces. Your goal is to get a generator network to generate new images of faces that look as realistic as possible.
+There are multiple problems with the dataset: low resolution with biased dataset (not a lot of race and gender diversity).
+![img.png](img.png)
+
+### Results
 
 
 ---
