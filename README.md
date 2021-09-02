@@ -1,5 +1,5 @@
 # Udacity Deep Learning Nanodegree Program + Own Projects
-<img src="readme_images/cert.jpg"/>
+<img src="readme_images/cert.jpg" width="300px" height="300px"/>
 This folder contains all the projects from Udacity's Nanodegree Program along with own projects. The major projects are 
 stored in the 'project-XXX' format or below:
 
@@ -80,7 +80,7 @@ Imagine you are working for a production company, and your job is to write a scr
 project we are asked to use RNN along with LSTM generate a good model whose accuracy should be <= 3.5.  <br>
 
 ### Results
-The model I've created barely based the 3.5 threshold and had the following parameters:
+The model I've created barely passed the 3.5 threshold and had the following parameters:
 - epochs: 10, sequence length: 8, batch size: 256, learning rate: 0.001
 - hidden dimensions: 400, embedding dimensions: 300
 
@@ -117,7 +117,7 @@ george: i don't want to be here.
 
 ---
 ## Face Generator
-
+* <a href="">CycleGAN</a>
 
 
 ---
