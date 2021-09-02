@@ -104,6 +104,7 @@ There are multiple problems with the dataset: low resolution with biased dataset
 
 <b>Project Description</b>
 * <a href="http://ai.stanford.edu/~amaas/data/sentiment/">IMDb dataset</a>: 50,000 highly polar movie reviews <br>
+
 In this project you will construct a recurrent neural network for the purpose of determining the sentiment of a movie review using the IMDB data set. You will create this model using Amazon's SageMaker service. In addition, you will deploy your model and construct a simple web app which will interact with the deployed model.
 
 
