@@ -1,5 +1,5 @@
 # Udacity Deep Learning Nanodegree Program + Own Projects
-<img src="readme_images/cert.jpg" width="300px" height="300px"/>
+<img src="readme_images/cert.jpg" width="500px" height="500px"/>
 This folder contains all the projects from Udacity's Nanodegree Program along with own projects. The major projects are 
 stored in the 'project-XXX' format or below:
 
