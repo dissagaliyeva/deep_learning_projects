@@ -34,13 +34,6 @@ back at another position. Currently, there are about over 500 bike-sharing progr
 over 500 thousands bicycles. Today, there exists great interest in these systems due to their important role in traffic, 
 environmental and health issues.
 
-### Results
-![Bike Sharing Final Predictions](readme_images/bike-sharing.png) <br>
-The objective of the project was to predict the bike rentals within the last month (December) of the second year.
-It managed to achieve 0.062 on training set and 0.133 on test set. However, we can see that the December's results are overshooting.
-The majority of people use bikes for work commutes. As we can see, the data we're testing the results on the last days of December. As we saw above, there is an over-prediction in the last days of December. 
-We see such a phenomenon due to the fact that the Neural Network has seen one-year record (since we're withholding the last year for testing purposes). It could not generalize because of the holiday season. The solution to which would be to include more data on consecutive years.
-
 ---
 
 ## Landmark Classifier <a class="anchor" id="landmark"/>
@@ -57,17 +50,6 @@ Photo sharing and photo storage services like to have location data for each pho
 
 If no location metadata for an image is available, one way to infer the location is to detect and classify a discernible landmark in the image. Given the large number of landmarks across the world and the immense volume of images that are uploaded to photo sharing services, using human judgement to classify these landmarks would not be feasible.
 
-### Results
-
-<img src="readme_images/landmark.png" align="left"/>
-After going through dozens of research papers on Convolutional Neural Networks, I found the optimal architecture that managed to 
-score 41% instead of the passing score of 20%. After reading <a href="https://arxiv.org/abs/1409.4842">Going Deeper with Convolutions</a>, I've decided to
-go with 5-layer convolutions (each followed by ReLU activation function and max pooling) and 3 fully-connected layers. The interesting
-part is that having 4 convolutional layers had 24% on the test data. By adding one more layer, its accuracy jumped by 17%! 
-
-However, using VGG-16 for pre-trained model, scored a bit more than 70%. Not only did it score moderately, but also has over 20 million parameters. 
-This finding led me to reconsider my choice and find more optimal models. The experimentation will be covered in the next notebook.
-
 ---
 
 ## TV Script Generator
@@ -78,16 +60,6 @@ This finding led me to reconsider my choice and find more optimal models. The ex
 
 Imagine you are working for a production company, and your job is to write a script for one of their shows. You could write it manually or let an algorithm do it for you! In this
 project we are asked to use RNN along with LSTM generate a good model whose accuracy should be <= 3.5.  <br>
-
-### Results
-The model I've created barely passed the 3.5 threshold and had the following parameters:
-- epochs: 10, sequence length: 8, batch size: 256, learning rate: 0.001
-- hidden dimensions: 400, embedding dimensions: 300
-
-The interesting fact that I've noticed was that having smaller learning rate, sequence length and batch size gave much better 
-performance. Even though the lectures mentioned that the optimal batch size is in the range of 32 to 512, for this particular 
-assignment using 64-100 batch size yielded in the best performance. I'll need to spend more time with this topic and return to it
-with better understanding :)
 
 **Small results extract**
 ```
@@ -120,19 +92,19 @@ george: i don't want to be here.
 * <a href="https://github.com/issagaliyeva/deep_learning_projects/blob/master/project-face-generation/dlnd_face_generation.ipynb">GAN on celebrity images</a>
 
 <b>Project Description</b>
-* <a href="http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html">CelebFaces Attributes Dataset (CelebA)</a>: 200k images, 32x32x3 
+* <a href="http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html">CelebFaces Attributes Dataset (CelebA)</a>: 200,000 images, 32x32x3 
 
 In this project, you'll define and train a DCGAN on a dataset of faces. Your goal is to get a generator network to generate new images of faces that look as realistic as possible.
-There are multiple problems with the dataset: low resolution with biased dataset (not a lot of race and gender diversity).
+There are multiple problems with the dataset: low resolution with biased dataset (lack of race and gender diversity).
 ![img.png](img.png)
-
-### Results
-
 
 ---
 ## Deploying the Model
 * <a href="https://github.com/issagaliyeva/deep_learning_projects/blob/master/project-aws-deployment/SageMaker%20Project.ipynb">SageMaker + REST API (for app)</a><br>
-This project was an extension of lectures where
+
+<b>Project Description</b>
+* <a href="http://ai.stanford.edu/~amaas/data/sentiment/">IMDb dataset</a>: 50,000 highly polar movie reviews
+In this project you will construct a recurrent neural network for the purpose of determining the sentiment of a movie review using the IMDB data set. You will create this model using Amazon's SageMaker service. In addition, you will deploy your model and construct a simple web app which will interact with the deployed model.
 
 
 ---
