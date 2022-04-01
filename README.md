@@ -1,7 +1,7 @@
-# Udacity Deep Learning Nanodegree Program + Own Projects
-<img src="readme_images/cert.jpg"/>
-This folder contains all the projects from Udacity's Nanodegree Program along with own projects. The major projects are 
-stored in the 'project-XXX' format or below:
+### Udacity Deep Learning Nanodegree Program + Own Projects
+<img src="readme_images/cert.jpg" width="400"/>
+This folder contains all the projects from Udacity's Nanodegree Program along with own projects. All of them are 
+stored in the 'project-XXX' format:
 
 **Udacity**
 - [x] [Bike-Sharing (pure numpy)](#bike-sharing)
